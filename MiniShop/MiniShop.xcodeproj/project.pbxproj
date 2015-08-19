@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		165D35AE1B83BD6D00C8570A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 165D35AD1B83BD6D00C8570A /* main.m */; };
 		165D35B11B83BD6D00C8570A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 165D35B01B83BD6D00C8570A /* AppDelegate.m */; };
-		165D35B41B83BD6D00C8570A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165D35B31B83BD6D00C8570A /* FirstViewController.m */; };
-		165D35B71B83BD6D00C8570A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165D35B61B83BD6D00C8570A /* SecondViewController.m */; };
 		165D35BA1B83BD6D00C8570A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165D35B81B83BD6D00C8570A /* Main.storyboard */; };
 		165D35BC1B83BD6D00C8570A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165D35BB1B83BD6D00C8570A /* Images.xcassets */; };
 		165D35BF1B83BD6D00C8570A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165D35BD1B83BD6D00C8570A /* LaunchScreen.xib */; };
 		165D35CB1B83BD6E00C8570A /* MiniShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 165D35CA1B83BD6E00C8570A /* MiniShopTests.m */; };
+		165D35D61B8439E100C8570A /* ShopInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165D35D51B8439E100C8570A /* ShopInfoViewController.m */; };
+		165D35D91B843A8000C8570A /* CraftingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165D35D81B843A8000C8570A /* CraftingViewController.m */; };
+		165D35DC1B843A9500C8570A /* SellingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165D35DB1B843A9500C8570A /* SellingViewController.m */; };
+		165D35DF1B843B3B00C8570A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165D35DE1B843B3B00C8570A /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +35,20 @@
 		165D35AD1B83BD6D00C8570A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		165D35AF1B83BD6D00C8570A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		165D35B01B83BD6D00C8570A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		165D35B21B83BD6D00C8570A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		165D35B31B83BD6D00C8570A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		165D35B51B83BD6D00C8570A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		165D35B61B83BD6D00C8570A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		165D35B91B83BD6D00C8570A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		165D35BB1B83BD6D00C8570A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		165D35BE1B83BD6D00C8570A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		165D35C41B83BD6E00C8570A /* MiniShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		165D35C91B83BD6E00C8570A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165D35CA1B83BD6E00C8570A /* MiniShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniShopTests.m; sourceTree = "<group>"; };
+		165D35D41B8439E100C8570A /* ShopInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopInfoViewController.h; sourceTree = "<group>"; };
+		165D35D51B8439E100C8570A /* ShopInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopInfoViewController.m; sourceTree = "<group>"; };
+		165D35D71B843A8000C8570A /* CraftingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CraftingViewController.h; sourceTree = "<group>"; };
+		165D35D81B843A8000C8570A /* CraftingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CraftingViewController.m; sourceTree = "<group>"; };
+		165D35DA1B843A9500C8570A /* SellingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellingViewController.h; sourceTree = "<group>"; };
+		165D35DB1B843A9500C8570A /* SellingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellingViewController.m; sourceTree = "<group>"; };
+		165D35DD1B843B3B00C8570A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		165D35DE1B843B3B00C8570A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,14 +92,18 @@
 			children = (
 				165D35AF1B83BD6D00C8570A /* AppDelegate.h */,
 				165D35B01B83BD6D00C8570A /* AppDelegate.m */,
-				165D35B21B83BD6D00C8570A /* FirstViewController.h */,
-				165D35B31B83BD6D00C8570A /* FirstViewController.m */,
-				165D35B51B83BD6D00C8570A /* SecondViewController.h */,
-				165D35B61B83BD6D00C8570A /* SecondViewController.m */,
 				165D35B81B83BD6D00C8570A /* Main.storyboard */,
 				165D35BB1B83BD6D00C8570A /* Images.xcassets */,
 				165D35BD1B83BD6D00C8570A /* LaunchScreen.xib */,
 				165D35AB1B83BD6D00C8570A /* Supporting Files */,
+				165D35D41B8439E100C8570A /* ShopInfoViewController.h */,
+				165D35D51B8439E100C8570A /* ShopInfoViewController.m */,
+				165D35D71B843A8000C8570A /* CraftingViewController.h */,
+				165D35D81B843A8000C8570A /* CraftingViewController.m */,
+				165D35DA1B843A9500C8570A /* SellingViewController.h */,
+				165D35DB1B843A9500C8570A /* SellingViewController.m */,
+				165D35DD1B843B3B00C8570A /* LoginViewController.h */,
+				165D35DE1B843B3B00C8570A /* LoginViewController.m */,
 			);
 			path = MiniShop;
 			sourceTree = "<group>";
@@ -224,9 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				165D35B71B83BD6D00C8570A /* SecondViewController.m in Sources */,
+				165D35D91B843A8000C8570A /* CraftingViewController.m in Sources */,
 				165D35B11B83BD6D00C8570A /* AppDelegate.m in Sources */,
-				165D35B41B83BD6D00C8570A /* FirstViewController.m in Sources */,
+				165D35DF1B843B3B00C8570A /* LoginViewController.m in Sources */,
+				165D35DC1B843A9500C8570A /* SellingViewController.m in Sources */,
+				165D35D61B8439E100C8570A /* ShopInfoViewController.m in Sources */,
 				165D35AE1B83BD6D00C8570A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

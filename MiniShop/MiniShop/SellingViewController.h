@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  SellingViewController.h
 //  MiniShop
 //
 //  Created by Yifang Zhang on 8/18/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface SellingViewController : UIViewController
 
 @end
-
