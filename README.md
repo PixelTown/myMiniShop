@@ -7,7 +7,7 @@ using basic UIViews, TableViews, and AFNetworking
 
 Deadlines:
 
-1. Aug. 18th 
+1. Step 1:
 
   -- UI basic mainstory board finish
   
@@ -23,7 +23,7 @@ Deadlines:
     
   -- finish the basic storyboard and create all the controller files
   
-2. Aug. 19th
+2. Step 2:
 
   -- Starting to create an AFNetworking helper class, including following functions:
   
@@ -39,7 +39,7 @@ Deadlines:
     
     - AFNUploadWithMutiPartAndProgress
     
-3. Aug. 20th
+3. Step 3:
 
   -- Starting to set up the database
   
@@ -49,7 +49,17 @@ Deadlines:
     
     - to be continued
     
-4. Aug 21st
+4. Step 4:
+
+  -- implementing the interface:
+  
+    - login page
+    
+    - what to craft page
+    
+    - selling page
+    
+    - shop info page
 
   -- send it to testflight
   
